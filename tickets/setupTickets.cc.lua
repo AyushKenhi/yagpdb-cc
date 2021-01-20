@@ -14,13 +14,13 @@
 {{/* USER VARIABLES */}}
 
     {{/* Satff Roles */}}
-        {{$Admins := cslice 673258482211749917}} {{/* IDs of your ADMINs Roles. Leave the "cslice" here even if you have only 1 role */}}
-        {{$Mods := cslice 674429313097007106}} {{/* IDs of your MODs Roles. Leave the "cslice" here even if you have only 1 role */}}
-        {{$MentionRoleID := 647298324734541827}} {{/* Role to be mentioned when a new ticket is opened */}}
+        {{$Admins := cslice 781738543663939594}} {{/* IDs of your ADMINs Roles. Leave the "cslice" here even if you have only 1 role */}}
+        {{$Mods := cslice 781738543663939594}} {{/* IDs of your MODs Roles. Leave the "cslice" here even if you have only 1 role */}}
+        {{$MentionRoleID := 781738543663939594}} {{/* Role to be mentioned when a new ticket is opened */}}
 
     {{/* Open Message Info */}}
-        {{$msgOpenChannelID := 578976698931085333}} {{/* Channel ID where the msg to open tickets is at. THIS CHANNEL CANT BE IN THE SAME CATEGORY AS THE TICKETS!!!!! */}}
-        {{$msgID := 656755443506610176}} {{/* Message ID of the message the user has to react to open ticket */}}
+        {{$msgOpenChannelID := 801119024552607784}} {{/* Channel ID where the msg to open tickets is at. THIS CHANNEL CANT BE IN THE SAME CATEGORY AS THE TICKETS!!!!! */}}
+        {{$msgID := 801125047733321752}} {{/* Message ID of the message the user has to react to open ticket */}}
 
     {{/* EMOJIS - Emoji MUST be unicode characters, like the examples here. */}}
         {{$OpenEmoji := "📩"}}
@@ -34,16 +34,16 @@
         {{$DeleteEmoji := "⛔"}}
 
     {{/* Ticket Status */}}
-        {{$ticketOpen := "Open"}} {{/* Status of an open ticket - CAN NOT HAVE ANY SPECIAL CHARACTERS OR SPACE */}}
-        {{$ticketClose := "Closed"}} {{/* Status of a closed ticket - CAN NOT HAVE ANY SPECIAL CHARACTERS OR SPACE */}}
-        {{$ticketSolving := "Solving"}} {{/* Status of an solving ticket - CAN NOT HAVE ANY SPECIAL CHARACTERS OR SPACE */}}
+        {{$ticketOpen := "Open Ticket"}} {{/* Status of an open ticket - CAN NOT HAVE ANY SPECIAL CHARACTERS OR SPACE */}}
+        {{$ticketClose := "Closed Ticket"}} {{/* Status of a closed ticket - CAN NOT HAVE ANY SPECIAL CHARACTERS OR SPACE */}}
+        {{$ticketSolving := "Open Ticket"}} {{/* Status of an solving ticket - CAN NOT HAVE ANY SPECIAL CHARACTERS OR SPACE */}}
 
     {{/* Misc */}}
-        {{$CCID := 132}} {{/* ID of your "Range CC" */}}
-        {{$SchedueledCCID := 133}} {{/* ID of your "Schedueled CC" */}}
-        {{$masterTicketChannelID := 721766366776131663}} {{/* A channel ID where the status of ur tickets will be displayed (Further explained in the README) */}}
-        {{$Trc := 682036950999629879}} {{/* Channe ID to save transcripts */}}
-        {{$category := 682207474178195489}} {{/* Tickets category ID */}}
+        {{$CCID := 6}} {{/* ID of your "Range CC" */}}
+        {{$SchedueledCCID := 8}} {{/* ID of your "Schedueled CC" */}}
+        {{$masterTicketChannelID := 801127412448100386}} {{/* A channel ID where the status of ur tickets will be displayed (Further explained in the README) */}}
+        {{$Trc := 801122381791363082}} {{/* Channe ID to save transcripts */}}
+        {{$category := 801119146552983652}} {{/* Tickets category ID */}}
         {{$Delay := 24}} {{/* Delay (in hours) for a ticket to automatically be deleted if no messages are sent */}}
 
 {{/* END OF USER VARIABLES */}}
